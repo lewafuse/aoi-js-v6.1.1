@@ -4,14 +4,14 @@
 
 ### [Discord Sunucumuz](https://discord.gg/WYersnJp2f) | [Youtube Kanalımız](https://youtube.com/@roca200) | [Instagram Sayfamız](https://www.instagram.com/lewafuse0)
 
-**Başlamadan önce Modüllerimizi yükleyelim.**
+### **Başlamadan önce Modüllerimizi yükleyelim.**
 ```
 npm i aoi.js@6.1.1
 npm i node@18
 npm i 
 ```
 
-**Herşey tamam sayılır, şimdi projemizi aktif hale getirelim.**
+### **Herşey tamam sayılır, şimdi projemizi aktif hale getirelim.**
 ```
 node .
 ```
