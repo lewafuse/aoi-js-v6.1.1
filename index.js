@@ -3,10 +3,10 @@ const { AoiClient, LoadCommands } = require("aoi.js");
 var fs = require('fs')
 const aoimongo = require("aoi.mongo");
 const keep_alive = require('./keep_alive.js')
-const config = require('./configs/config.json')
+const lwconfig = require('./configs/lwconfig.json')
 
 const LWbot = new AoiClient({
-  token: process.env['TOKEN'],//config.token,
+  token: process.env['TOKEN'],//lwconfig.token,
   prefix: "$getVar[prefix]",
   intents: ["MessageContent", "Guilds", "GuildMembers", "GuildMessages", "GuildBans", "GuildWebhooks", "GuildPresences"],
   events: ['onMessage',
@@ -37,7 +37,7 @@ const loader = new LoadCommands(LWbot);
 loader.load(bot.cmd, "./komutlar/")
 
 //variables
-LWbot.variables(require('./configs/variables.js'));
+LWbot.variables(require('./configs/lwvariables.js'));
 
 
 
