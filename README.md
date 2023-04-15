@@ -7,7 +7,7 @@
 ### **Başlamadan önce**
 `.env` dosyasına gelin ve **TOKEN** adında bir **KEY** açın, değerine **bot_token** girin.
 
-### Modüller**
+### Modüller
 ```
 npm i aoi.js@6.1.1
 npm i node@18
