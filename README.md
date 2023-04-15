@@ -1,4 +1,4 @@
-# ROCA - AOI.JS v6.1.1 Example - Project
+# ROCA - AOI.JS v6.1.1 - Example Project
 
 **Bu Proje v6.1.1 kullanıcılarının daha kolay ve dinamik bir başlangıç yapabilmesi için tasarlanmıştır.**
 
