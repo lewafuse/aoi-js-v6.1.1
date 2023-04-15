@@ -5,7 +5,7 @@ const aoimongo = require("aoi.mongo");
 const keep_alive = require('./keep_alive.js')
 const config = require('./configs/config.json')
 
-const bot = new AoiClient({
+const LWbot = new AoiClient({
   token: process.env['TOKEN'],//config.token,
   prefix: "$getVar[prefix]",
   intents: ["MessageContent", "Guilds", "GuildMembers", "GuildMessages", "GuildBans", "GuildWebhooks", "GuildPresences"],
@@ -29,18 +29,18 @@ const bot = new AoiClient({
 
 
 
-//Event Loader
-const loader = new LoadCommands(bot);
+//LwLoader
+const loader = new LoadCommands(LWbot);
 loader.load(bot.cmd, "./komutlar/")
 
 //variables
-bot.variables(require('./configs/variables.js'));
+LWbot.variables(require('./configs/variables.js'));
 
 
 
 /*
 const voice = new AoiVoice(
-  bot,
+  LWbot,
   {
     cache: {
       cacheType: "Memory",
@@ -55,7 +55,7 @@ voice.onTrackStart()
 
 
 //------------ REBOOT -----------//
-bot.readyCommand({
+LWbot.readyCommand({
   channel: "",
   code: `
 $log[========================================]
@@ -70,21 +70,21 @@ $log[========================================]
 
 
 //--------------STATUS--------------//
-bot.status({
+LWbot.status({
   text: config.botStatus,
   type: "PLAYING",
   status: "online",
   time: 7
 })
 
-bot.status({
+LWbot.status({
   text: config.botStatus1,
   type: "WATCHING",
   status: "online",
   time: 7
 })
 
-bot.status({
+LWbot.status({
   text: config.botStatus2,
   type: "LISTENING",
   status: "online",
