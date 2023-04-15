@@ -1,6 +1,6 @@
 {
-    "token": "",
-    "botStatus":"Rise Of Kingdoms",
-    "botStatus1":"Yedderban",
+    "token": "buraya token koymak yerine --> process.env[TOKEN]    kullan",
+    "botStatus":"Lewafuse",
+    "botStatus1":"Lewafuse",
     "botStatus2":"Lewafuse <3"
 }
