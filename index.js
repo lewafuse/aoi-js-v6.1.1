@@ -5,7 +5,7 @@ const aoimongo = require("aoi.mongo");
 const keep_alive = require('./keep_alive.js')
 const lwconfig = require('./configs/lwconfig.json')
 
-const LWbot = new AoiClient({
+const bot = new AoiClient({
   token: process.env['TOKEN'],//lwconfig.token,
   prefix: "$getVar[prefix]",
   intents: ["MessageContent", "Guilds", "GuildMembers", "GuildMessages", "GuildBans", "GuildWebhooks", "GuildPresences"],
@@ -33,11 +33,11 @@ TAKLİTLER ASLINI YÜCELTİR
 
 
 //LwLoader
-const loader = new LoadCommands(LWbot);
+const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./komutlar/")
 
 //variables
-LWbot.variables(require('./configs/lwvariables.js'));
+bot.variables(require('./configs/lwvariables.js'));
 
 
 
