@@ -28,7 +28,6 @@ const bot = new AoiClient({
 
 /*
 BU PROJE LEWAFUSE TARAFINDAN YENİ BAŞLAYANLAR İÇİN TASARLANMIŞTIR, LÜTFEN KENDİNİZİNMİŞ GİBİ GÖSTERMEYİN.
-TAKLİTLER ASLINI YÜCELTİR 
 */
 
 
@@ -58,7 +57,7 @@ voice.onTrackStart()
 
 
 //------------ REBOOT -----------//
-LWbot.readyCommand({
+bot.readyCommand({
   channel: "",
   code: `
 $log[========================================]
@@ -73,21 +72,21 @@ $log[========================================]
 
 
 //--------------STATUS--------------//
-LWbot.status({
+bot.status({
   text: config.botStatus,
   type: "PLAYING",
   status: "online",
   time: 7
 })
 
-LWbot.status({
+bot.status({
   text: config.botStatus1,
   type: "WATCHING",
   status: "online",
   time: 7
 })
 
-LWbot.status({
+bot.status({
   text: config.botStatus2,
   type: "LISTENING",
   status: "online",
