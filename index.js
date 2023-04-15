@@ -26,7 +26,10 @@ const LWbot = new AoiClient({
 })
 
 
-
+/*
+BU PROJE LEWAFUSE TARAFINDAN TASARLANMIŞTIR, LÜTFEN KENDİNİZİNMİŞ GİBİ GÖSTERMEYİN.
+TAKLİTLER ASLINI YÜCELTİR 
+*/
 
 
 //LwLoader
