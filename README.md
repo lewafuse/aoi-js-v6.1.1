@@ -2,7 +2,7 @@
 
 **Bu Proje v6.1.1 kullanıcılarının daha kolay ve dinamik bir başlangıç yapabilmesi için tasarlanmıştır.**
 
-[Destek Sunucumuz](https://discord.gg/WYersnJp2f) | [Youtube Kanalımız](https://youtube.com/@roca200) | [Instagram Sayfamız](https://www.instagram.com/lewafuse0)
+### [Discord Sunucumuz](https://discord.gg/WYersnJp2f) | [Youtube Kanalımız](https://youtube.com/@roca200) | [Instagram Sayfamız](https://www.instagram.com/lewafuse0)
 
 **Başlamadan önce Modüllerimizi yükleyelim.**
 ```
