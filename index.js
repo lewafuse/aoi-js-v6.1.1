@@ -73,21 +73,21 @@ $log[========================================]
 
 //--------------STATUS--------------//
 bot.status({
-  text: config.botStatus,
+  text: lwconfig.botStatus,
   type: "PLAYING",
   status: "online",
   time: 7
 })
 
 bot.status({
-  text: config.botStatus1,
+  text: lwconfig.botStatus1,
   type: "WATCHING",
   status: "online",
   time: 7
 })
 
 bot.status({
-  text: config.botStatus2,
+  text: lwconfig.botStatus2,
   type: "LISTENING",
   status: "online",
   time: 7
