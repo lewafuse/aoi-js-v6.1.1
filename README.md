@@ -4,7 +4,10 @@
 
 ### [Discord Sunucumuz](https://discord.gg/WYersnJp2f) | [Youtube Kanalımız](https://youtube.com/@roca200) | [Instagram Sayfamız](https://www.instagram.com/lewafuse0)
 
-### **Başlamadan önce Modüllerimizi yükleyelim.**
+### **Başlamadan önce**
+`.env` dosyasına gelin ve **TOKEN** adında bir **KEY** açın, değerine **bot_token** girin.
+
+### Modüller**
 ```
 npm i aoi.js@6.1.1
 npm i node@18
