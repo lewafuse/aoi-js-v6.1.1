@@ -1,11 +1,11 @@
-# ROCA - AOI.JS v6.1.1 - Example Project
+# PLUWZ - AOI.JS v6.1.1 - Example Project
 
 **Bu Proje v6.1.1 kullanıcılarının daha kolay ve dinamik bir başlangıç yapabilmesi için tasarlanmıştır.**
 
-### [Discord Sunucumuz](https://discord.gg/WYersnJp2f) | [Youtube Kanalımız](https://youtube.com/@roca200) | [Instagram Sayfamız](https://www.instagram.com/lewafuse0)
+### [Discord Sunucumuz](https://discord.gg/WYersnJp2f) | [Youtube Kanalımız](https://youtube.com/@pluwz) | [Instagram Sayfamız](https://www.instagram.com/lewafuse0)
 
 ### **Başlamadan önce**
-`.env` dosyasına gelin ve **TOKEN** adında bir **KEY** açın, değerine **bot_token** girin.
+`.env` dosyasına gelin ve **TOKEN** adında bir **KEY** açın, değerine **bot_tokeniniz** girin.
 
 ### Modüller
 ```
